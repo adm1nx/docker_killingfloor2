@@ -4,7 +4,7 @@ echo " "
 echo " "
 
 echo "Make sure you forwarded ports, the command should like something like the below..."
-echo "docker run -it -p 0.0.0.0:27015:27015/udp -p 0.0.0.0:7777:7777/udp sequel7/killingfloor2"
+echo "docker run -it -p 0.0.0.0:7777:7777/udp sequel7/killingfloor2"
 
 echo " "
 echo " "
