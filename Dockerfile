@@ -1,4 +1,4 @@
-FROM sequel7/kf2:latest
+FROM sequel7/killingfloor2:latest
 
 USER steam
 RUN ./steamcmd.sh +@sSteamCmdForcePlatformType windows +login anonymous +force_install_dir /opt/server/ +app_update 232130 validate +quit
