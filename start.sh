@@ -13,4 +13,4 @@ sleep 6
 
 ./steamcmd.sh +@sSteamCmdForcePlatformType windows +login anonymous +force_install_dir /opt/server/ +app_update 232130 +quit
 
-WINEDEBUG="fixme-all" unbuffer wine /opt/server/Binaries/Win64/KFServer.exe kf-bioticslab?difficulty=0?maxplayers=20 -port=7777
+WINEDEBUG="fixme-all" unbuffer wine /opt/server/Binaries/Win64/KFServer.exe $(STARTINGMAP)?difficulty=$(DIFFICULTY)?maxplayers=$(MAXPLAYERS) -port=$(PORT)
